@@ -16,10 +16,10 @@
 #define UC_UND LG(Z)
 #define UC_RDO LG(LS(Z))
 
-#define DK_SLSH LS(7)
-#define DK_DQT LS(2)
+#define DK_SLSH AMPS
+#define DK_DQT AT
 #define DK_SQT PIPE
-#define DK_COLN LS(DOT)
+#define DK_COLN GT
 #define DK_MINS SLASH
 
 #define DK_AE COLON
