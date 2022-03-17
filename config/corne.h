@@ -5,3 +5,9 @@
 #define NAV 1
 #define NUM 2
 #define SYM 3
+
+#define UC_CUT LG(X)
+#define UC_CPY LG(C)
+#define UC_PST LG(V)
+#define UC_UND LG(Z)
+#define UC_RDO LG(LS(Z))
