@@ -7,4 +7,4 @@
     mods = <MODS>; \
   };
 
-COMBO(TI_colon, DK_COLN, DK_SCOLN, MOD_LSFT)
+MORPH(TI_colon, DK_COLN, DK_SCOLN, MOD_LSFT)
