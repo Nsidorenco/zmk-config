@@ -20,6 +20,7 @@
 #define DK_DQT AT
 #define DK_SQT BACKSLASH
 #define DK_COLN GT
+#define DK_SCOLN LT
 #define DK_MINS SLASH
 #define DK_AT LA(BACKSLASH)
 #define DK_CIRC LS(RBKT)

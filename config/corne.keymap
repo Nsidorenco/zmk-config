@@ -10,6 +10,10 @@
     #include "combos.dtsi"
   };
 
+  behaviors {
+	  #include "morphs.dtsi"
+	};
+
   keymap {
     compatible = "zmk,keymap";
 

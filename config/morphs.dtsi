@@ -1,0 +1,10 @@
+
+#define Morph(NAME, DEF, ALT, MODS) \
+  ##NAME: { \
+    compatible = "zmk,behavior-mod-morph";
+    label = "morph_##NAME"
+    bindings = <&kp DEF>, <&kp ALT>; \
+    mods = <MODS>; \
+  };
+
+COMBO(TI_colon, DK_COLN, DK_SCOLN, MOD_LSFT)
