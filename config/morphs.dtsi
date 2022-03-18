@@ -6,4 +6,4 @@
     mods = <MODS>; \
   };
 
-MORPH(ti_COLON, DK_COLN, DK_SCOLN, MOD_LSFT)
+MORPH(TIcolon, DK_COLN, DK_SCOLN, MOD_LSFT)
