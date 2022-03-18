@@ -1,9 +1,9 @@
 #define MORPH(NAME, DEF, ALT, MODS) \
-  m_##NAME: morph_##NAME { \
+  NAME: morph_##NAME { \
     compatible = "zmk,behavior-mod-morph"; \
     #binding-cells <0>; \
     bindings = <&kp DEF>, <&kp ALT>; \
     mods = <MODS>; \
   };
 
-MORPH(TI_colon, DK_COLN, DK_SCOLN, MOD_LSFT)
+MORPH(ti_COLON, DK_COLN, DK_SCOLN, MOD_LSFT)
