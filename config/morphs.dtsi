@@ -1,7 +1,7 @@
 #define MORPH(NAME, DEF, ALT, MODS) \
   NAME: morph_##NAME { \
     compatible = "zmk,behavior-mod-morph"; \
-    label ""##NAME; \
+    label = ##NAME; \
     #binding-cells = <0>; \
     bindings = <&kp DEF>, <&kp ALT>; \
     mods = <MODS>; \
