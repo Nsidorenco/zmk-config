@@ -1,6 +1,6 @@
 
 #define Morph(NAME, DEF, ALT, MODS) \
-  ##NAME: { \
+  m_##NAME: ##NAME { \
     compatible = "zmk,behavior-mod-morph";
     label = "morph_##NAME"
     bindings = <&kp DEF>, <&kp ALT>; \
