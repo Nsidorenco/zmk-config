@@ -2,6 +2,7 @@
   m_##NAME: ##NAME { \
     compatible = "zmk,behavior-mod-morph"; \
     label = "morph_##NAME"; \
+    #binding-cells <0>; \
     bindings = <&kp DEF>, <&kp ALT>; \
     mods = <MODS>; \
   };
