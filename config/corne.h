@@ -28,3 +28,13 @@
 #define DK_AE COLON
 #define DK_AO SQT
 #define DK_AA LBKT
+
+#define MORPH(NAME, DEF, ALT, MODS) \
+  NAME: morph_##NAME { \
+    compatible = "zmk,behavior-mod-morph"; \
+    label = #NAME; \
+    #binding-cells = <0>; \
+    bindings = <&kp DEF>, <&kp ALT>; \
+    mods = <MODS>; \
+  };
+

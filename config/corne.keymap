@@ -11,7 +11,7 @@
   };
 
   behaviors {
-	  #include "morphs.dtsi"
+		MORPH(TIcolon, DK_COLN, DK_SCOLN, MOD_LSFT)
 	};
 
   keymap {
