@@ -21,11 +21,11 @@
       label = "BASE";
       bindings = <
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
-             XXX         &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       XXX
+            &bt BT_SEL 0 &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp C       &kp S       &kp N       &kp T       &kp W           &kp COMMA   &kp A       &kp E       &kp I       &kp H       XXX
+            &bt BT_SEL 1 &kp C       &kp S       &kp N       &kp T       &kp W           &kp COMMA   &kp A       &kp E       &kp I       &kp H       XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp J       &kp G       &kp M       &kp P       &kp V           &kp DK_COLN &kp DOT     &kp DK_SLSH &kp DK_DQT  &kp DK_SQT  XXX
+            &bt BT_CLR   &kp J       &kp G       &kp M       &kp P       &kp V           &kp DK_COLN &kp DOT     &kp DK_SLSH &kp DK_DQT  &kp DK_SQT  XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
                                                  &kp ESC     &lt NAV R   &kp ENTER     &kp TAB &kp SPACE  &kp BSPC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
