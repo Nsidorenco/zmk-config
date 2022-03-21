@@ -35,8 +35,8 @@
 #define DK_EQL LS(0)
 #define DK_LT GRAVE
 #define DK_GT LS(GRAVE)
-#define DK_PLUS KC_MINUS
-#define DK_QUES LS(KC_MINUS)
+#define DK_PLUS MINUS
+#define DK_QUES LS(MINUS)
 #define DK_ASTR LS(DK_SQT)
 #define DK_AMPR LS(6)
 #define DK_BAR LA(I)
