@@ -18,6 +18,26 @@
 		MORPH(dquot_override, DK_DQT, DK_QUES, MOD_LSFT)
 		MORPH(quot_override, DK_SQT, EXCL, MOD_LSFT)
 		MORPH(comm_override, COMMA, DK_BAR, MOD_LSFT)
+		lhm: left_hand_positional_hold_tap {
+			compatible = "zmk,behavior-hold-tap";
+			label = "LEFT_POSITIONAL_HOLD_TAP";
+			#binding-cells = <2>;
+			flavor = "tap-unless-interrupted";
+			tapping-term-ms = TAPPING_TERM;                 // <---[[produces tap if held longer than tapping-term-ms]]
+			quick-tap-ms = QUICK_TAPPING_TERM;
+			bindings = <&kp>, <&kp>;
+			hold-trigger-key-positions = LEFT_POSITIONS;    // <---[[right-hand keys]]
+		};
+		rhm: right_hand_positional_hold_tap {
+			compatible = "zmk,behavior-hold-tap";
+			label = "RIGHT_POSITIONAL_HOLD_TAP";
+			#binding-cells = <2>;
+			flavor = "tap-unless-interrupted";
+			tapping-term-ms = TAPPING_TERM;                 // <---[[produces tap if held longer than tapping-term-ms]]
+			quick-tap-ms = QUICK_TAPPING_TERM;
+			bindings = <&kp>, <&kp>;
+			hold-trigger-key-positions = RIGHT_POSITIONS;    // <---[[right-hand keys]]
+		};
 	};
 
   keymap {
@@ -29,7 +49,7 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
             &bt BT_SEL 0 &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &bt BT_SEL 1 &kp C       &kp S       &kp N       &kp T       &kp W           &kp COMMA   &kp A       &kp E       &kp I       &kp H       XXX
+            &bt BT_SEL 1 &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &kp COMMA  &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H  XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
             &bt BT_CLR   &kp J       &kp G       &kp M       &kp P       &kp V           &kp DK_COLN &kp DOT     &kp DK_SLSH &kp DK_DQT  &kp DK_SQT  XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
