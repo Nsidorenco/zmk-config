@@ -17,7 +17,7 @@
 		MORPH(slsh_override, DK_SLSH, DK_ASTR, MOD_LSFT)
 		MORPH(dquot_override, DK_DQT, DK_QUES, MOD_LSFT)
 		MORPH(quot_override, DK_SQT, EXCL, MOD_LSFT)
-		MORPH(comm_override, COMM, DK_BAR, MOD_LSFT)
+		MORPH(comm_override, COMMA, DK_BAR, MOD_LSFT)
 	};
 
   keymap {
