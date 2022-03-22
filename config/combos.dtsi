@@ -20,3 +20,7 @@ compatible = "zmk,combos";
 COMBO(dk_aa, &kp DK_AA, 19 20, BASE)
 COMBO(dk_ao, &kp DK_AO, 19 21, BASE)
 COMBO(dk_ae, &kp DK_AE, 20 21, BASE)
+
+/* Rare *
+COMBO(w_combo, &kp Q, 7 9, BASE)
+COMBO(z_combo, &kp Z, 25 26, BASE)
