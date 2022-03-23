@@ -29,12 +29,12 @@
 #define DK_MINS SLASH
 #define DK_AT LA(BACKSLASH)
 #define DK_CIRC LS(RBKT)
-#define DK_LPRN LS(8)
-#define DK_RPRN LS(9)
-#define DK_LBKT LA(8)
-#define DK_RBKT LA(9)
-#define DK_LBRC LS(LA(8))
-#define DK_RBRC LS(LA(9))
+#define DK_LPRN LS(N8)
+#define DK_RPRN LS(N9)
+#define DK_LBKT LA(N8)
+#define DK_RBKT LA(N9)
+#define DK_LBRC LS(LA(N8))
+#define DK_RBRC LS(LA(N9))
 
 #define DK_DLLR NON_US_BSLH
 #define DK_EQL LS(0)
@@ -43,7 +43,7 @@
 #define DK_PLUS MINUS
 #define DK_QUES LS(MINUS)
 #define DK_ASTR LS(DK_SQT)
-#define DK_AMPR LS(6)
+#define DK_AMPR LS(N6)
 #define DK_BAR LA(I)
 
 

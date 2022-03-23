@@ -77,11 +77,11 @@
       label = "NUM";
       bindings = <
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
-             XXX         &kp DK_LBRC &kp 6       &kp 5       &kp 4       &kp DK_RBRC      XXX         XXX         XXX         XXX         XXX         XXX
+             XXX         &kp DK_LBRC &kp N6      &kp N5      &kp N4      &kp DK_RBRC      XXX         XXX         XXX         XXX         XXX         XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp DK_LPRN &kp 3       &kp 2       &kp 1       &kp DK_RPRN      &kp SPACE   &kp LSHFT   &kp LCTL    &kp LCMD    &kp LALT    &kp BSPC
+             XXX         &kp DK_LPRN &kp N3      &kp N2      &kp N1      &kp DK_RPRN      &kp SPACE   &kp LSHFT   &kp LCTL    &kp LCMD    &kp LALT    &kp BSPC
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp DK_LBKT &kp 9       &kp 8       &kp 7       &kp DK_RBKT      &kp ENTER   XXX         XXX         XXX         &to NUM     XXX
+             XXX         &kp DK_LBKT &kp N9      &kp N8      &kp N7      &kp DK_RBKT      &kp ENTER   XXX         XXX         XXX         &to NUM     XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
                                                  &kp DOT     &kp 0       &kp DK_MINS     &kp TAB     &to BASE   &kp BSPC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
