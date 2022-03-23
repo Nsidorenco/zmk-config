@@ -29,6 +29,7 @@
 #define DK_COLN GT
 #define DK_SCOLN LT
 #define DK_MINS SLASH
+#define DK_UNDS LS(SLASH)
 #define DK_AT LA(BACKSLASH)
 #define DK_CIRC LS(LA(RBKT))
 #define DK_LPRN LS(N8)
