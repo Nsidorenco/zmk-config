@@ -50,11 +50,11 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
             &kp DK_PLUS  &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       &kp DK_BSLSH
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &eql         &lhm lalt c &lhm lgui s &lhm lctl n &lhm lsft t &kp w           &TIcomma    &rhm lsft a &rhm lctl e &rhm lgui i &rhm lalt h &kp dk_unds
+            &eql         &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &TIcomma    &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H &kp DK_UNDS
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
             &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &TIcolon    &TIdot      &TIslsh     &TIdquot    &TIqout     &kp DK_GT
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE  &bspc
+                                                 &kp ESC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE  &kp BSPC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
