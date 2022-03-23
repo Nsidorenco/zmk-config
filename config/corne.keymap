@@ -12,13 +12,13 @@
 
   behaviors {
 		MORPH(TIcolon, DK_COLN, DK_SCOLN, MOD_LSFT)
-		MORPH(del, BACKSPACE, DELETE, MOD_LSFT)
-		MORPH(dot_override, DOT, DK_AMPR, MOD_LSFT)
-		MORPH(slsh_override, DK_SLSH, DK_ASTR, MOD_LSFT)
-		MORPH(dquot_override, DK_DQT, DK_QUES, MOD_LSFT)
-		MORPH(quot_override, DK_SQT, EXCL, MOD_LSFT)
-		MORPH(comm_override, COMMA, DK_BAR, MOD_LSFT)
-		MORPH(zoom_reset, N0, LG(N0), (MOD_LGUI && MOD_LSFT))
+		MORPH(bspc, BACKSPACE, DELETE, MOD_LSFT)
+		MORPH(TIdot, DOT, DK_AMPR, MOD_LSFT)
+		MORPH(TIslsh, DK_SLSH, DK_ASTR, MOD_LSFT)
+		MORPH(TIdquot, DK_DQT, DK_QUES, MOD_LSFT)
+		MORPH(TIqout, DK_SQT, EXCL, MOD_LSFT)
+		MORPH(TIcomma, COMMA, DK_BAR, MOD_LSFT)
+		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
 		lhm: left_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "LEFT_POSITIONAL_HOLD_TAP";
@@ -50,11 +50,11 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
             &kp DK_PLUS  &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       &kp DK_BSLSH
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &kp DK_EQL   &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &kp COMMA  &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H  &kp DK_UNDS
+            &eql         &lhm lalt c &lhm lgui s &lhm lctl n &lhm lsft t &kp w           &TIcomma    &rhm lsft a &rhm lctl e &rhm lgui i &rhm lalt h &kp dk_unds
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &kp DK_COLN &kp DOT     &kp DK_SLSH &kp DK_DQT  &kp DK_SQT  &kp DK_GT
+            &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &TIcolon    &TIdot      &TIslsh     &TIdquot    &TIqout     &kp DK_GT
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE  &kp BSPC
+                                                 &kp ESC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE  &bspc
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
