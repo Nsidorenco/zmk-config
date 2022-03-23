@@ -18,6 +18,7 @@
 		MORPH(dquot_override, DK_DQT, DK_QUES, MOD_LSFT)
 		MORPH(quot_override, DK_SQT, EXCL, MOD_LSFT)
 		MORPH(comm_override, COMMA, DK_BAR, MOD_LSFT)
+		MORPH(zoom_reset, DK_EQL, LG(N0), MOD_LCMD)
 		lhm: left_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "LEFT_POSITIONAL_HOLD_TAP";
@@ -83,7 +84,7 @@
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
              XXX         &kp DK_LBKT &kp N9      &kp N8      &kp N7      &kp DK_RBKT      &kp ENTER   XXX         XXX         XXX         &to NUM     XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp DOT     &kp 0       &kp DK_MINS     &kp TAB     &to BASE   &kp BSPC
+                                                 &kp DOT     &kp N0      &kp DK_MINS     &kp TAB     &to BASE   &kp BSPC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
