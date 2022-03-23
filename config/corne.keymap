@@ -49,7 +49,7 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
             &kp DK_PLUS  &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       &kp DK_BSLSH
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &kp DK_EQL   &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &kp COMMA  &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H  &kp UNDERSCORE
+            &kp DK_EQL   &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &kp COMMA  &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H  &kp DK_UNDS
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
             &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &kp DK_COLN &kp DOT     &kp DK_SLSH &kp DK_DQT  &kp DK_SQT  &kp DK_GT
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
