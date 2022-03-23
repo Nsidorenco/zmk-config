@@ -26,7 +26,7 @@
 			tapping-term-ms = <TAPPING_TERM>;                 // <---[[produces tap if held longer than tapping-term-ms]]
 			quick-tap-ms = <QUICK_TAPPING_TERM>;
 			bindings = <&kp>, <&kp>;
-			hold-trigger-key-positions = LEFT_POSITIONS;    // <---[[right-hand keys]]
+			hold-trigger-key-positions = RIGHT_POSITIONS;    // <---[[right-hand keys]]
 		};
 		rhm: right_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
@@ -36,7 +36,7 @@
 			tapping-term-ms = <TAPPING_TERM>;                 // <---[[produces tap if held longer than tapping-term-ms]]
 			quick-tap-ms = <QUICK_TAPPING_TERM>;
 			bindings = <&kp>, <&kp>;
-			hold-trigger-key-positions = RIGHT_POSITIONS;    // <---[[right-hand keys]]
+			hold-trigger-key-positions = LEFT_POSITIONS;    // <---[[right-hand keys]]
 		};
 	};
 
