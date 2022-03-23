@@ -9,6 +9,7 @@
 #define NAV 1
 #define NUM 2
 #define SYM 3
+#define SET 4
 
 #define TAPPING_TERM 400
 #define QUICK_TAPPING_TERM 200
@@ -22,6 +23,7 @@
 #define UC_RDO LG(LS(Z))
 
 #define DK_SLSH AMPS
+#define DK_BSLSH LA(AMPS)
 #define DK_DQT AT
 #define DK_SQT BACKSLASH
 #define DK_COLN GT
