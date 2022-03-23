@@ -39,7 +39,7 @@
 #define DK_RBRC LS(LA(N9))
 
 #define DK_DLLR NON_US_BSLH
-#define DK_EQL LS(0)
+#define DK_EQL LS(N0)
 #define DK_LT GRAVE
 #define DK_GT LS(GRAVE)
 #define DK_PLUS MINUS
