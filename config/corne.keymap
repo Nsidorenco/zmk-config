@@ -48,13 +48,13 @@
       label = "BASE";
       bindings = <
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
-            &kp DK_PLUS  &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &kp U       &kp O       &kp Y       &kp K       &kp DK_BSLSH
+            &kp DK_PLUS  &kp X       &kp F       &kp L       &kp D       &kp B           &kp DK_MINS &TIdot      &TIslsh     &TIdqout    &TIqout     &kp DK_BSLSH
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
             &eql         &lhm LALT C &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp W           &TIcomma    &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H &kp DK_UNDS
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &TIcolon    &TIdot      &TIslsh     &TIdquot    &TIqout     &kp DK_GT
+            &kp DK_LT    &kp J       &kp G       &kp M       &kp P       &kp V           &TIcolon    &kp U       &kp O       &kp Y       &kp K       &kp DK_GT
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE  &kp BSPC
+                                                 &kp BSPC     &lt NAV R   &kp TAB     &lt SYM ENTER &lt NUM SPACE &kp ESC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
