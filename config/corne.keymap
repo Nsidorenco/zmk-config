@@ -19,6 +19,7 @@
 		MORPH(TIqout, DK_SQT, EXCL, MOD_LSFT)
 		MORPH(TIcomma, COMMA, DK_BAR, MOD_LSFT)
 		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
+		MORPH(dot, DOT, DK_PLUS, MOD_LSFT)
 		lhm: left_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "LEFT_POSITIONAL_HOLD_TAP";
