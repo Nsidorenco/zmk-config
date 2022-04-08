@@ -1,7 +1,12 @@
 #include "corne.h"
 
+// Properties
 &caps_word {
   continue-list = <UNDERSCORE MINUS BACKSPACE>;
+};
+
+&lt {
+        quick-tap-ms = <QUICK_TAPPING_TERM>;
 };
 
 / {
