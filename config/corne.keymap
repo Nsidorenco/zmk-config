@@ -32,7 +32,7 @@
 			flavor = "hold-preferred";
 			tapping-term-ms = <TAPPING_TERM>;                 // <---[[produces tap if held longer than tapping-term-ms]]
 			quick-tap-ms = <QUICK_TAPPING_TERM>;
-			global-quick-tab;
+			global-quick-tap;
 			bindings = <&kp>, <&kp>;
 			hold-trigger-key-positions = RIGHT_POSITIONS;    // <---[[right-hand keys]]
 		};
@@ -43,7 +43,7 @@
 			flavor = "hold-preferred";
 			tapping-term-ms = <TAPPING_TERM>;                 // <---[[produces tap if held longer than tapping-term-ms]]
 			quick-tap-ms = <QUICK_TAPPING_TERM>;
-			global-quick-tab;
+			global-quick-tap;
 			bindings = <&kp>, <&kp>;
 			hold-trigger-key-positions = LEFT_POSITIONS;    // <---[[right-hand keys]]
 		};
