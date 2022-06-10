@@ -36,7 +36,7 @@
 		MORPH(TIslsh, &kp DK_SLSH, &kp DK_ASTR, MOD_LSFT)
 		MORPH(TIdquot, &kp DK_DQT, &kp DK_QUES, MOD_LSFT)
 		MORPH(TIqout, &kp DK_SQT, &kp EXCL, MOD_LSFT)
-		MORHP(TIcomma, &kp COMMA, &bar_morph, MOD_LSFT)
+		MORPH(TIcomma, &kp COMMA, &bar_morph, MOD_LSFT)
 		MORPH(eql, &kp DK_EQL, &kp LG(N0), MOD_LGUI)
 		MORPH(dot, &kp DOT, &kp DK_PLUS, MOD_LSFT)
 		lhm: left_hand_positional_hold_tap {
