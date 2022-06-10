@@ -11,6 +11,20 @@
 
 / {
 
+  macros {
+	  bar_morph: bar_morph {
+		  label = "bar_morph";
+			compatible = "zmk,behaviors-macro";
+			#binding-cells = <0>;
+			bindings
+			   = <&macro_release &kp LSHFT>
+				 , <&macro_press &kp LALT>
+				 , <&macro_tap &kp I>
+				 , <&macro_release &kp LALT>
+				 ;
+		}
+	}
+
   combos {
     #include "combos.dtsi"
   };
@@ -22,7 +36,13 @@
 		MORPH(TIslsh, DK_SLSH, DK_ASTR, MOD_LSFT)
 		MORPH(TIdquot, DK_DQT, DK_QUES, MOD_LSFT)
 		MORPH(TIqout, DK_SQT, EXCL, MOD_LSFT)
-		MORPH(TIcomma, COMMA, DK_BAR, MOD_LSFT)
+		TIcomma: TIcomma {
+		  compatible = "zmk,behaviors-mod-morph";
+			label = "TIcomma";
+			#binding-cells = <0>;
+			bindings = <&kp COMMA>, <%bar_morph>;
+			mods = <MOD_LSFT>;
+		};
 		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
 		MORPH(dot, DOT, DK_PLUS, MOD_LSFT)
 		lhm: left_hand_positional_hold_tap {
