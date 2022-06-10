@@ -40,7 +40,7 @@
 		  compatible = "zmk,behaviors-mod-morph";
 			label = "TIcomma";
 			#binding-cells = <0>;
-			bindings = <&kp COMMA>, <&bar_morph>;
+			bindings = <&kp COMMA>, <&kp I>;
 			mods = <MOD_LSFT>;
 		};
 		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
