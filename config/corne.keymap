@@ -22,8 +22,8 @@
 				 , <&macro_tap &kp I>
 				 , <&macro_release &kp LALT>
 				 ;
-		}
-	}
+		};
+	};
 
   combos {
     #include "combos.dtsi"
