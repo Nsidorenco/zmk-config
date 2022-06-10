@@ -36,11 +36,11 @@
 		MORPH(TIslsh, DK_SLSH, DK_ASTR, MOD_LSFT)
 		MORPH(TIdquot, DK_DQT, DK_QUES, MOD_LSFT)
 		MORPH(TIqout, DK_SQT, EXCL, MOD_LSFT)
-		TIcomma: TIcomma {
+		TIcomma: morph_TIcomma {
 		  compatible = "zmk,behaviors-mod-morph";
 			label = "TIcomma";
 			#binding-cells = <0>;
-			bindings = <&kp COMMA>, <%bar_morph>;
+			bindings = <&kp COMMA>, <&bar_morph>;
 			mods = <MOD_LSFT>;
 		};
 		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
