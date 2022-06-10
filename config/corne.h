@@ -60,7 +60,7 @@
     compatible = "zmk,behavior-mod-morph"; \
     label = #NAME; \
     #binding-cells = <0>; \
-    bindings = <&kp DEF>, <&kp ALT>; \
+    bindings = <DEF>, <ALT>; \
     mods = <MODS>; \
   };
 

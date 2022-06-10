@@ -30,21 +30,15 @@
   };
 
   behaviors {
-		MORPH(TIcolon, DK_COLN, DK_SCOLN, MOD_LSFT)
-		MORPH(bspc, BACKSPACE, DELETE, MOD_LSFT)
-		MORPH(TIdot, DOT, DK_AMPR, MOD_LSFT)
-		MORPH(TIslsh, DK_SLSH, DK_ASTR, MOD_LSFT)
-		MORPH(TIdquot, DK_DQT, DK_QUES, MOD_LSFT)
-		MORPH(TIqout, DK_SQT, EXCL, MOD_LSFT)
-		TIcomma: morph_TIcomma {
-		  compatible = "zmk,behaviors-mod-morph";
-			label = "TIcomma";
-			#binding-cells = <0>;
-			bindings = <&kp COMMA>, <&kp I>;
-			mods = <MOD_LSFT>;
-		};
-		MORPH(eql, DK_EQL, LG(N0), MOD_LGUI)
-		MORPH(dot, DOT, DK_PLUS, MOD_LSFT)
+		MORPH(TIcolon, &kp DK_COLN, &kp DK_SCOLN, MOD_LSFT)
+		MORPH(bspc, &kp BACKSPACE, &kp DELETE, MOD_LSFT)
+		MORPH(TIdot, &kp DOT, &kp DK_AMPR, MOD_LSFT)
+		MORPH(TIslsh, &kp DK_SLSH, &kp DK_ASTR, MOD_LSFT)
+		MORPH(TIdquot, &kp DK_DQT, &kp DK_QUES, MOD_LSFT)
+		MORPH(TIqout, &kp DK_SQT, &kp EXCL, MOD_LSFT)
+		MORHP(TIcomma, &kp COMMA, &bar_morph, MOD_LSFT)
+		MORPH(eql, &kp DK_EQL, &kp LG(N0), MOD_LGUI)
+		MORPH(dot, &kp DOT, &kp DK_PLUS, MOD_LSFT)
 		lhm: left_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "LEFT_POSITIONAL_HOLD_TAP";
