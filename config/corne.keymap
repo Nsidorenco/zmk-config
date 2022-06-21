@@ -2,7 +2,7 @@
 
 // Properties
 &caps_word {
-  continue-list = <UNDERSCORE MINUS BACKSPACE>;
+  continue-list = <UNDERSCORE SLASH MINUS BACKSPACE>;
 };
 
 &lt {
@@ -39,6 +39,7 @@
 		MORPH(TIcomma, &kp COMMA, &kp LA(I), MOD_LSFT)
 		MORPH(eql, &kp DK_EQL, &kp LG(N0), MOD_LGUI)
 		MORPH(dot, &kp DOT, &kp DK_PLUS, MOD_LSFT)
+		MORPH(tilde, &kp DK_TILDE, &kp DK_BSLSH, MOD_LSFT)
 		lhm: left_hand_positional_hold_tap {
 			compatible = "zmk,behavior-hold-tap";
 			label = "LEFT_POSITIONAL_HOLD_TAP";
@@ -70,7 +71,7 @@
       label = "BASE";
       bindings = <
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
-            &kp DK_PLUS  &kp X       &kp C       &kp L       &kp D       &kp B           &kp DK_MINS &TIdot      &kp J      &TIdquot    &TIqout    &kp DK_BSLSH
+            &kp DK_PLUS  &kp X       &kp C       &kp L       &kp D       &kp B           &kp DK_MINS &TIdot      &kp J      &TIdquot    &TIqout    &kp DK_TILDE
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
             &eql         &lhm LALT R &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp G           &TIcomma    &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H &TIslsh
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤

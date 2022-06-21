@@ -49,7 +49,7 @@
 #define DK_ASTR LS(DK_SQT)
 #define DK_AMPR LS(N6)
 #define DK_BAR LA(I)
-
+#define DK_TILDE LA(RBKT)
 
 #define DK_AE SEMICOLON
 #define DK_AO SQT
