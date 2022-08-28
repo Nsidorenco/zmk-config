@@ -71,13 +71,13 @@
       label = "BASE";
       bindings = <
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
-            &kp DK_PLUS  &kp X       &kp C       &kp L       &kp D       &kp B           &kp DK_MINS &TIdot      &kp J      &TIdquot    &TIqout      &tilde
+            &kp DK_UNDS  &kp V       &kp F       &kp M       &kp P       &kp W           &kp DK_MINS &TIdot      &TIslsh     &TIdquot    &TIqout     &kp Z
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &eql         &lhm LALT R &lhm LGUI S &lhm LCTL N &lhm LSFT T &kp G           &TIcomma    &rhm LSFT A &rhm LCTL E &rhm LGUI I &rhm LALT H &TIslsh
+            &kp J        &kp R       &kp S       &kp N       &kp T       &kp G           &TIcomma    &kp A       &kp E       &kp I       &kp H       &mo NUM
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-            &kp DK_LT    &kp V       &kp F       &kp M       &kp P       &kp W           &TIcolon    &kp U       &kp O       &kp Y       &kp K       &kp DK_GT
+            &kp DK_LT    &kp X       &kp C       &kp L       &kp D       &kp B           &TIcolon    &kp U       &kp O       &kp Y       &kp K       &kp DK_GT
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC    &lt NAV SPC  &kp TAB     &lt SYM ENTER &lt NUM BSPC &sk LA(LSFT)
+                                                 &kp ESC    &lt NAV SPC  &sk LCTRL       &sk LSHIFT  &mo SYM     &kp BSPC
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
@@ -88,11 +88,11 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
              XXX         XXX         XXX         XXX         XXX         XXX             &kp UC_CUT  &kp UC_CPY  &kp UC_PST  &kp UC_UND  &kp UC_RDO  XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp LALT    &kp LCMD    &kp LCTL    &kp LSHFT   XXX             &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word  XXX
+             XXX         &sk LALT    &sk LCMD    &sk LCTL    &sk LSHIFT  XXX             &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &caps_word  XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
              XXX         &to NAV     XXX         XXX         XXX         XXX             &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &kp INS     XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC     &to BASE    &kp TAB         &kp ENTER   &kp BSPC   &sk LA(LSFT)
+                                                 &kp ESC     &to BASE    &kp TAB         &kp ENTER   &kp BSPC    &sk LA(LSFT)
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
@@ -103,7 +103,7 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
              XXX         &kp DK_LBRC &kp N6      &kp N5      &kp N4      &kp DK_RBRC      XXX         XXX         XXX         XXX         XXX         XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX         &kp DK_LPRN &kp N3      &kp N2      &kp N1      &kp DK_RPRN      &kp SPACE   &kp LSHFT   &kp LCTL    &kp LCMD    &kp LALT    &kp BSPC
+             XXX         &kp DK_LPRN &kp N3      &kp N2      &kp N1      &kp DK_RPRN      &kp SPACE   &kp LSHIFT  &kp LCTL    &kp LCMD    &kp LALT    &kp BSPC
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
              XXX         &kp DK_LBKT &kp N9      &kp N8      &kp N7      &kp DK_RBKT      &kp ENTER   XXX         XXX         XXX         &to NUM     XXX
         // ╰───────────┴───────────┴───────────┴───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
@@ -119,11 +119,11 @@
         // ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
              XXX        &kp DK_LBRC  &kp DK_CIRC &kp PRCNT   &kp DK_DLLR &kp DK_RBRC     XXX         XXX         XXX         XXX         XXX         XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX        &kp DK_LPRN  &kp HASH    &kp DK_AT   &kp EXCL    &kp DK_RPRN     XXX         &kp LSHFT   &kp LCTL    &kp LCMD    &kp LALT    XXX
+             XXX        &kp DK_LPRN  &kp HASH    &kp DK_AT   &kp EXCL    &kp DK_RPRN     XXX         &sk LSHIFT  &sk LCTL    &sk LCMD    &sk LALT    XXX
         // ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
-             XXX        &kp DK_LBKT  &kp DK_LT   &kp DK_ASTR &kp DK_AMPR &kp DK_RBKT     XXX         XXX         XXX         XXX         &to SYM     XXX
+             XXX        &kp DK_LBKT  &kp DK_LT   &kp DK_ASTR &kp DK_AMPR &kp DK_RBKT     XXX         &kp ENTER   &kp TAB     XXX         &to SYM     XXX
         // ╰───────────┴───────────┴───────────┼───────────┼───────────┤───────────┤   ├───────────┼───────────┼───────────┴───────────┴───────────┴───────────╯
-                                                 &kp ESC     &kp SPC     &lt SET TAB     &to BASE   &kp BSPC   &sk LA(LSFT)
+                                                 &kp ESC     &kp SPC     &lt SET TAB     XXX         XXX         XXX
         //                                     ╰───────────┴───────────┴───────────╯   ╰───────────┴───────────┴───────────╯
       >;
     };
