@@ -24,4 +24,5 @@ COMBO(dk_ae, &kp DK_AE, 8 9, BASE)
 
 /* Rare */
 COMBO(w_combo, &kp Q, 31 33, BASE)
-COMBO(z_combo, &kp Z, 25 26, BASE)
+COMBO(z_combo, &kp Z, 25 27, BASE)
+COMBO(tab_combo, &kp TAB, 4 5, BASE)
